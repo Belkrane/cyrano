@@ -4,7 +4,7 @@ import Cyrano from './Component/Cyrano';
 import Bottombar from './Component/Bottombar/Bottombar';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import newspeed from './pages/newspeed';
-import personal from './pages/perosnal';
+import personal from './pages/personal';
 import login from './pages/login';
 
 const App = () => {
