@@ -8,7 +8,7 @@ import './login.css';
 
 
 const responseGoogle = (response) => {
-    console.log(response);
+    
 }
 
 const login = () =>
@@ -18,7 +18,7 @@ const login = () =>
             <h1 className="title">CYRANO</h1>
             <GoogleLogin
                 clientId="813143843555-sofm6u14svb2ulfpaun28qubn44tr4ge.apps.googleusercontent.com"
-                buttonText="Login"
+                buttonText="Google Login"
                 onSuccess={responseGoogle}
                 onFailure={responseGoogle}
             />
