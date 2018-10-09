@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import newspeed from './pages/newspeed';
-import personal from './pages/perosnal';
+import personal from './pages/personal';
 import login from './pages/login';
 
 const App = () => {
