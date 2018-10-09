@@ -21,7 +21,7 @@ class login extends Component{
                 <h1 className="title">CYRANO</h1>
                 <GoogleLogin
                     clientId="813143843555-sofm6u14svb2ulfpaun28qubn44tr4ge.apps.googleusercontent.com"
-                    buttonText="Google Login"
+                    buttonText="Login with Google"
                     onSuccess={this.responseGoogle = this.responseGoogle.bind(this)}
                     onFailure={this.responseGoogle}
                 />
